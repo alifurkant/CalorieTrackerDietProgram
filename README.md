@@ -1,20 +1,37 @@
-# CalorieTrackerDietProgram
 
-CalorieTrackerDietProgram is created so that users can track their daily eating habits. The Program provides users ability to:
--create their accounts
--change their passwords
--add 256 different food or beverages to their meal data
--add different meals other than default meals which are breakfast, lunch, dinner.
--list history of their meals day by day.
--view their total calories taken in a day.
--view meals they have eaten in previous days, what they have eaten in that meals and which nutrition contain how many calories
--view comparison table of "How many nutrition they have eaten from each category and how many calories they have taken from each category compared by all users of app"
--view comparison table of "How many nutrition they have eaten in each meal and how many calories they have taken from each meal compared by all users of app"
--view comparison table of "What they have consumed from beginning to today"
--change table interval as monthly or weekly basis.
+# Calorie Tracker Diet Automation Program (Kalori Diyet Takip Programı)
 
-To develop CalorieTrackerDietProgram:
--C# .Net 6.0
--Entity Framework Core
--Microsoft SQL Server
--Windows Form Applications are used collaboratively with all team members.
+Bu projemizde .NET CORE 6.0 kullanarak kullanıcıların günlük öğün olarak aldıkları kalorilerini kolay bir şekilde oluşturup takibini yapabilecekleri bir windows form uygulaması oluşturmayı amaçladık.
+
+
+## Kullanılan Teknolojiler
+
+**Geliştirme Ortamı:** Ms Visual Studio 2022
+
+**Kod Altyapısı:** C#, .NET CORE 6.0
+
+**Mimari Tasarım:** N-Tier Katmanlı Mimari
+
+**Veri Tabanı:** Ms SQL Server
+
+**Veri Erişim Teknolojisi:** Entity Framework CORE (CodeFirst)
+
+**Arayüz Tasarımı:** Windows Forms Application
+
+**Versiyon Kontrol Sistemi:** Git
+## Projeyi Başlatma
+- Proje.DAL katmanında bulunan ProjectContext.cs dosyasındaki server bağlantısını düzenleyin.
+- PM Console'da add-migration [Migration Adı] komutunu yazıp çalıştırın
+- PM Console'da update-database diyerek veritabanını oluşturun.
+    
+## Screenshots
+
+![App Screenshot](https://raw.githubusercontent.com/kaganeris/CalorieTrackerDietProgram/master/ScreenShots/ss1.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/kaganeris/CalorieTrackerDietProgram/master/ScreenShots/ss2.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/kaganeris/CalorieTrackerDietProgram/master/ScreenShots/ss3.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/kaganeris/CalorieTrackerDietProgram/master/ScreenShots/ss4.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/kaganeris/CalorieTrackerDietProgram/master/ScreenShots/ss5.jpg)
